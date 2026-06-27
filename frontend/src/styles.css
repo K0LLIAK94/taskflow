@@ -1,0 +1,66 @@
+:root {
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f5f7;
+}
+
+.app {
+  padding: 24px;
+}
+
+.board {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.column {
+  background: #ebecf0;
+  border-radius: 8px;
+  padding: 12px;
+  width: 272px;
+  flex-shrink: 0;
+}
+
+.column h3 {
+  margin: 0 0 12px;
+  font-size: 14px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 40px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+
+.card p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.labels {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-size: 11px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 1px 6px;
+}
