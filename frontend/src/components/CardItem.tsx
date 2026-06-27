@@ -23,7 +23,7 @@ export function CardItem({ card }: { card: Card }) {
       {card.description && <p>{card.description}</p>}
       <div className="labels">
         {card.labels.map((l) => (
-          <span key={l.id} style= background: l.color  className="label">
+          <span key={l.id} style= backgroundColor: l.color  className="label">
             {l.name}
           </span>
         ))}

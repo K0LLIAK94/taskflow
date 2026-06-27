@@ -9,7 +9,7 @@ export function ColumnView({ column }: { column: Column }) {
     <div
       ref={setNodeRef}
       className="column"
-      style= outline: isOver ? "2px solid #4f8cff" : "none" 
+      style= outline: isOver ? "2px solid #4c9aff" : "none" 
     >
       <h3>{column.title}</h3>
       <div className="cards">
